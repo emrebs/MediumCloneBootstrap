@@ -1,0 +1,71 @@
+body  {
+      font-family: 'Roboto', sans-serif;
+
+}
+
+.font-georgia {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.bg-y {
+
+background-color: #FFC017;
+}
+
+.fs-12 {
+      font-size: 12px;
+}
+
+.fs-14 {
+      font-size: 14px;
+}
+
+.fs-22 {
+      font-size: 22px;
+}
+
+.aside-buttons > li {
+     margin-bottom: 10px;
+     
+}
+
+.cursor {
+      cursor: pointer;
+}
+
+a {
+      text-decoration: none;
+}
+
+#svg path {
+      fill: rgb(244, 244, 244);
+}
+
+#svg path:hover {
+      fill: #FFC017;
+      cursor: pointer;
+      transition: .3s;
+}
+
+.list-inline-item a::after {
+      content: "";
+      display: block;
+      width: 0;
+      height: 2px;
+      background-color: #FFC017;
+      transition: .4s;
+}
+
+.list-inline-item a:hover::after {
+      width: 100%;
+}
+
+#navlogo path:hover{
+      fill: #61470064;
+      transition: .2s;
+}
+
+
+
+
